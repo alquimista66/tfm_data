@@ -17,13 +17,12 @@ library(pollimetry) #ver 1.0.1
 library(abdiv) #ver 0.2.0
 
 #import datasets:
-pap<-read_excel("C:/Users/Acer/Documents/CONSERVACION BIODIVERSIDAD MASTER/TFM/datos/pap_2010_bd_total.xlsx", sheet = 1)
-gar<-read_excel("C:/Users/Acer/Documents/CONSERVACION BIODIVERSIDAD MASTER/TFM/datos/gar_2010_bd_total.xlsx", sheet = 2)
-pap_com<-read_excel("C:/Users/Acer/Documents/CONSERVACION BIODIVERSIDAD MASTER/TFM/datos/papiol_comunitat.xlsx", sheet = 1)
-gar_com<-read_excel("C:/Users/Acer/Documents/CONSERVACION BIODIVERSIDAD MASTER/TFM/datos/garraf_comunitat.xlsx", sheet = 1)
-col_ref<-read_excel("C:/Users/Acer/Documents/CONSERVACION BIODIVERSIDAD MASTER/TFM/datos/bd_coleccio_creaf.xlsx", sheet = 1)
-meteo_pap<-read_excel("C:/Users/Acer/Documents/CONSERVACION BIODIVERSIDAD MASTER/TFM/datos/climograma_tfm.xlsx", sheet = 1)
-meteo_gar<-read_excel("C:/Users/Acer/Documents/CONSERVACION BIODIVERSIDAD MASTER/TFM/datos/climograma_tfm.xlsx", sheet = 2)
+
+pap<- #pap_2010_bd_total.xlsx, sheet 1
+gar<-#gar_2010_bd_total.xlsx, sheet 2
+col_ref<- #bd_coleccio_creaf.xlsx, sheet 1
+meteo_pap<- #climograma_tfm.xlsx, sheet 1
+meteo_gar<- #climograma_tfm.xlsx, sheet 2
 
 
 ###################################################################################################################################
